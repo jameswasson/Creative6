@@ -1,0 +1,40 @@
+<!doctype html>
+<html ng-app="myApp">
+
+<head>
+    <title>User Login and Sessions</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
+    <body bgcolor="#ccffcc">
+</head>
+
+<body>
+
+    <div id="txt"></div>
+    <div ng-controller="myController">
+        <h2 id="welcomeText">Welcome. You are Logged In as
+            <%= username %>
+        </h2>
+        <a id="logoutLink" href="/logout">logout</a>
+        <a id="editLink" href="/user">Edit User</a>
+        <p id="myCodeHere">Place Your Code Here
+            <%= (new Date().getTime() - start_time) / 1000%>
+                <p>
+        <button id="b0" ng-click="buttonListener(0)">Test 1,5</button>
+        <button id="b1" ng-click="buttonListener(1)">Test 5,10</button>
+        <button id="b2" ng-click="buttonListener(2)">Test 10,100</button>
+        <button id="b3" ng-click="buttonListener(3)">Test 100,200</button>
+    </div>
+    <hr>
+    <span id="indexMsg">
+        <%= msg %>
+    </span>
+    <hr>
+    <span id="colorText">
+    Color
+        <%= color %>
+      </span>
+    <script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
+    <script src="/javascripts/my_app.js"></script>
+</body>
+
+</html>

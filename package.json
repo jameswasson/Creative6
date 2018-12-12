@@ -1,0 +1,19 @@
+{
+  "name": "creative",
+  "version": "1.0.0",
+  "description": "CS260 Authentication Lab",
+  "main": "lab6.page.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BYUCS260F2017/lab-6-authentication-jameswasson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BYUCS260F2017/lab-6-authentication-jameswasson/issues"
+  },
+  "homepage": "https://github.com/BYUCS260F2017/lab-6-authentication-jameswasson#readme"
+}
